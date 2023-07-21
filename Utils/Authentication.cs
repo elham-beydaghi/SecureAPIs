@@ -1,6 +1,6 @@
 ﻿namespace SecureAPIs.Utils
 {
-    public class Authentication
+    public static class Authentication
     {
     }
 }

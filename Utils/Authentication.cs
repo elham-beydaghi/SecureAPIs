@@ -1,10 +1,21 @@
-﻿namespace SecureAPIs.Utils
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace SecureAPIs.Utils
 {
     public static class Authentication
     {
-        public static bool AuthenticateWithUsernameAndPassword(string username, string password)
+        public async static Task<bool> AuthenticateWithUsernameAndPassword(string username, string password)
         {
-            return true;
+            bool isAuthenticated = false;
+
+            //var userManager = new UserManager<IdentityUser>(new UserStore);
+            //var user = await userManager.FindByNameAsync(username);
+            //if (user != null && await userManager.CheckPasswordAsync(user, password))
+            //{
+            //    isAuthenticated = true;
+            //}
+
+            return isAuthenticated;
         }
 
         public static bool AuthenticateWithToken(string token)

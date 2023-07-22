@@ -1,6 +1,6 @@
 ﻿namespace SecureAPIs.IAuthenticationMethods
 {
-    public class IAuthenticationServices
+    public interface IServices
     {
     }
 }

@@ -16,5 +16,10 @@
         {
             return true;
         }
+
+        public static bool AuthenticateWithGoogle(string accessToken)
+        {
+            return true;
+        }
     }
 }

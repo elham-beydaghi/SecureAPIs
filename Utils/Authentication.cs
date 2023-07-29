@@ -20,6 +20,7 @@ namespace SecureAPIs.Utils
 
         public static bool AuthenticateWithToken(string token)
         {
+            //this is a test
             return true;
         }
 
